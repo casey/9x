@@ -6,7 +6,7 @@ An attempt to bring [Plan 9-style namespaces](http://www.cs.bell-labs.com/sys/do
 Key features of Plan 9 namespaces:
 
 - A per-process view of the namespace.
-- Selective inheritance and sharing via process groups.
+- Selective inheritance and sharing of the namespace.
 - Access to namespace manipulation by non-priviliged users.
 
 basic features
