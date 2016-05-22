@@ -99,3 +99,11 @@ open questions
 - `elf`: Serve elf binaries, sections, symbols, disassembly
 - `sexp`: S expressions
 - `c`: Serve C build artifacts. Would take a path to a project containing, for example, C files, and then serve the built artifacts on demand
+- `arc`: serve files in an archive, like a .tar or .zip file
+- `journal`: Serve a non-journaling filesystem as a journaling filesystem
+- `stats`: serve another namespace while collecting usage stats
+- `long`: use long names with a namespace, such as a filesystem, that doens't support them
+- `news`: Serve net news
+- `wiki`: Serve a wiki as editable files
+
+Some of these are new, and some already exist in Plan 9.
