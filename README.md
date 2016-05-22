@@ -99,7 +99,7 @@ open questions
 - `elf`: Serve elf binaries, sections, symbols, disassembly
 - `sexp`: S expressions
 - `c`: Serve C build artifacts. Would take a path to a project containing, for example, C files, and then serve the built artifacts on demand
-- `arc`: serve files in an archive, like a .tar or .zip file
+- `arc`: serve files in an archive, like a .tar or .zip file. If it also supported encrypted archives this could be a handy way to keep sensitive material around, but still use it conveniently.
 - `journal`: Serve a non-journaling filesystem as a journaling filesystem
 - `stats`: serve another namespace while collecting usage stats
 - `long`: use long names with a namespace, such as a filesystem, that doens't support them
