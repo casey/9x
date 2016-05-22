@@ -53,7 +53,7 @@ open questions
 
 - What language should we implement the FUSE filesystem in? It is a C API, so C is an obvious choice. Rust is a possibility, since it's performant and interoperates well with C.
 
-- In Plan 9, as in Unix, you must create a directory to serve as the mountpoint for a `mount` command. This seems like poor ergonomics, but perhaps there is some reason we should reproduce this behavior.
+- In Plan 9, as in Unix, you must create a directory to serve as the mountpoint for a `mount` command. This seems like poor ergonomics, but perhaps there is some reason we should reproduce this behavior. The way that this is made more convenient is [mntgen](http://plan9.bell-labs.com/magic/man2html/4/mntgen), but it seems like it might as well be automatic.
 
 - Child processes in Plan 9 can share a parent's namespace, or acquire a copy of it. If they get a copy, then they will not see subsequent changes to the namespace by the parent. Should they? This seems like an easy feature to add, but I'm not sure whether it's useful or not.
 
