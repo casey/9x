@@ -44,12 +44,12 @@ open questions
 --------------
 
 - What is the best machanism for controlling the FUSE filesystem? Some ideas:
-  . a unix domain socket in a known location
-  . ioctl calls on the mount point
-  . extended attributes on the mount point
-  . unix signals
-  . named pipes
-  . system V message queue
+  - a unix domain socket in a known location
+  - ioctl calls on the mount point
+  - extended attributes on the mount point
+  - unix signals
+  - named pipes
+  - system V message queue
 
 - What language should we implement the FUSE filesystem in? It is a C API, so C is an obvious choice. Rust is a possibility, since it's performant and interoperates well with C.
 
