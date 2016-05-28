@@ -105,5 +105,6 @@ open questions
 - `long`: use long names with a namespace, such as a filesystem, that doens't support them
 - `news`: Serve net news
 - `wiki`: Serve a wiki as editable files
+- `datastore`: Serve appengine's datastore
 
 Some of these are new, and some already exist in Plan 9.
