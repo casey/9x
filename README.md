@@ -62,7 +62,7 @@ open questions
 9p server ideas
 ---------------
 
-- `env`: Plan 9 style environment variables
+- `env`: Plan 9 style environment variables. can be extended to allow a heirarchy of variables
 - `me`: information about the calling process
   - `me/pid`: process id
   - `me/tid`: process thread id
