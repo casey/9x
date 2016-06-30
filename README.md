@@ -30,8 +30,11 @@ wishlist features
 - integration with a window manager or tmux to facilitate namespace sharing in the manner of `rio`
 - facilities for exporting namespace over a network, along with an auth mechanism
 - an `ls` command that's able to deal with infinite namespaces by paging results
-- arbitrary byte-sequence names including `/` and the null byte
-- some way of distingushing between a namespace containing the named items `0`, `1`, `2`, and a numbered list (for example, a hypothetical json namespace would have a hard time representing a list vs an object indexed with '0', '1', '2')
+- representations for the following:
+  - names that contain `/` and the null byte
+  - non-sparse lists. if a directory contains the files `0`, `1`, and `2`, how do you append a file? how do you prepend a file? how do different processes make sure not to step on each others toes?
+  - un-ordered sets
+  - lists vs maps. how would a hypothetical json namespace represent an array vs an object indexed with '0', '1', '2'?
 
 Many of these are probably more trouble than they're worth.
 
