@@ -109,5 +109,6 @@ open questions
 - `news`: Serve net news
 - `wiki`: Serve a wiki as editable files
 - `datastore`: Serve appengine's datastore
+- `btcfs`: Serve information about a bitcoin core instance over 9p. blocks, translactions, memory usage, etc
 
 Some of these are new, and some already exist in Plan 9.
